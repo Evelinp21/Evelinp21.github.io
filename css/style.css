@@ -1,0 +1,59 @@
+*{ 
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ 
+img{ 
+    width: 100%;
+    height: auto;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+  }
+
+  .galeria{
+      margin-top: 8em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    margin-top: 13em;
+  }
+  
+  .contenedor { margin-top: 8em;
+  text-align: center;}
+
+  .hipervinculo{ text-align: center;
+    margin: 20px;
+  }
+
+  p{font-size: 20px;}
+
+
+  .hipervinculo a{
+  background-color: coral;
+color: black;
+padding: 10px;}
+
+.hipervinculo a:hover{ background-color: burlywood;}
+
+
+  
+
+  
